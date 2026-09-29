@@ -1,3 +1,34 @@
 <Solution>
-  <Project Path="ConsoleAppFirst/ConsoleAppFirst.csproj" />
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/C#/">
+    <Project Path="ConsoleAppFirst/ConsoleAppFirst.csproj" />
+  </Folder>
+  <Folder Name="/C++/" />
+  <Folder Name="/C++/Strukturalne/" />
+  <Folder Name="/C++/Strukturalne/01. Basics/" />
+  <Folder Name="/C++/Strukturalne/01. Basics/NewFolder1/" />
+  <Folder Name="/C++/Strukturalne/01. Basics/NewFolder1/BasicAplication/">
+    <Project Path="../../../rerpozytorium/klasa-3B-2026-2027/Programowanie/C++/Strukturalne/01. Basics/BasicsConsoleApplication/BasicsConsoleApplication.vcxproj" Id="9ad43af2-e908-46d9-b58b-d8b6ac2af849" />
+  </Folder>
+  <Folder Name="/C++/Strukturalne/02.Variable/" />
+  <Folder Name="/C++/Strukturalne/02.Variable/VariableConsole/">
+    <Project Path="../../../rerpozytorium/klasa-3B-2026-2027/Programowanie/C++/Strukturalne/02. Variable/VariableConsoleApplication/VariableConsoleApplication.vcxproj" Id="9f84b075-bc7c-48bf-822f-8dfe85e62e96" />
+  </Folder>
+  <Folder Name="/C++/Strukturalne/03.Decision instructions/" />
+  <Folder Name="/C++/Strukturalne/03.Decision instructions/01.Instructions If/" />
+  <Folder Name="/C++/Strukturalne/03.Decision instructions/01.Instructions If/IfConsole/">
+    <Project Path="../../../rerpozytorium/klasa-3B-2026-2027/Programowanie/C++/Strukturalne/03. Decision instructions/01. Instruction If/InstructionIfConsoleApplication/InstructionIfConsoleApplication.vcxproj" Id="3d7ed592-b2ff-4aa1-b738-c2cac315da14" />
+  </Folder>
+  <Folder Name="/C++/Strukturalne/03.Decision instructions/02. Loop DoWhile/" />
+  <Folder Name="/C++/Strukturalne/03.Decision instructions/02. Loop DoWhile/DoWhileConsole/">
+    <Project Path="../../../rerpozytorium/klasa-3B-2026-2027/Programowanie/C++/Strukturalne/03. Decision instructions/02. Loop DoWhile/LoopDoWhileConsoleApplication/LoopDoWhileConsoleApplication.vcxproj" Id="3d6894d8-a674-46e6-aa09-055296aabd9b" />
+  </Folder>
+  <Folder Name="/C++/Strukturalne/03.Decision instructions/03. Loop While/" />
+  <Folder Name="/C++/Strukturalne/03.Decision instructions/03. Loop While/WhileConsole/">
+    <Project Path="../../../rerpozytorium/klasa-3B-2026-2027/Programowanie/C++/Strukturalne/03. Decision instructions/03. Loop While/LoopWhileConsoleApplication/LoopWhileConsoleApplication.vcxproj" Id="b82a4bd7-990c-4561-91dc-7a407b778409" />
+  </Folder>
 </Solution>

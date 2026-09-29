@@ -1,6 +1,34 @@
-﻿
+﻿﻿
 Console.Write("Hello, World!");
 Console.WriteLine("Hello, World!");
+
+string name = "Jan";
+string surname = "Kowalski";
+
+Console.WriteLine("Witaj " + name + " " + surname + " tutaj!!!!");
+Console.WriteLine("Witaj {0} {1} tutaj!!!!", name, surname);
+Console.WriteLine($"Witaj {name} {surname} tutaj!!!!");
+
+Console.WriteLine("Prędkość to km\\h");
+Console.WriteLine(@"Prędkość to km\h");
+
+int firstNumber = 15;
+int secondNumber = firstNumber;
+++secondNumber;
+Console.WriteLine($"Pierwsza liczba to {firstNumber}");
+Console.WriteLine($"Druga liczba to {secondNumber}");
+
+string text;
+Console.WriteLine("Podaj dowolny tekst");
+text = Console.ReadLine();
+Console.WriteLine($"Podałeś: {text}");
+
+int x = 15;
+int? y = null;
+
+y = x;
+//x = y;
+
 
 /*
 Zmienna - pewien obszar w pamięci operacyjnej, w której można
@@ -47,4 +75,3 @@ SOLID
 
 
 */
-
