@@ -10,8 +10,7 @@
   <Folder Name="/C++/" />
   <Folder Name="/C++/Strukturalne/" />
   <Folder Name="/C++/Strukturalne/01. Basics/" />
-  <Folder Name="/C++/Strukturalne/01. Basics/NewFolder1/" />
-  <Folder Name="/C++/Strukturalne/01. Basics/NewFolder1/BasicAplication/">
+  <Folder Name="/C++/Strukturalne/01. Basics/BasicAplication/">
     <Project Path="../../../rerpozytorium/klasa-3B-2026-2027/Programowanie/C++/Strukturalne/01. Basics/BasicsConsoleApplication/BasicsConsoleApplication.vcxproj" Id="9ad43af2-e908-46d9-b58b-d8b6ac2af849" />
   </Folder>
   <Folder Name="/C++/Strukturalne/02.Variable/" />

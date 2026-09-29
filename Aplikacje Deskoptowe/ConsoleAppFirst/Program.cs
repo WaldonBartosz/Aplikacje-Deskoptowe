@@ -40,6 +40,7 @@ Instrukcja daklaracji zmiennej:
 typ_zmiennej nazwa_zmiennej;
 
 
+
 Typ zmiennej - wielkość obszaru pamięci, interpretacja ciągu bitów
 
 byte - 1 bajtowa liczba całkowita ze znakiem <-128 ; 127>
@@ -75,5 +76,6 @@ DRY - don't repeat yourself - nie powtarzaj się
 YAGNI - You Aren't Gonna Need It - Nie będziesz tego potrzebował
 SOLID
 
+._.
 
 */
