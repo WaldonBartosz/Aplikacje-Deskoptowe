@@ -30,6 +30,7 @@ y = x;
 //x = y;
 
 
+
 /*
 Zmienna - pewien obszar w pamięci operacyjnej, w której można
 w danej chwili przechować tylko jedną daną.
