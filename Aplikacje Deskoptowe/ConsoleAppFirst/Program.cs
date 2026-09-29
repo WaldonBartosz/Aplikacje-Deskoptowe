@@ -26,8 +26,10 @@ Console.WriteLine($"Podałeś: {text}");
 int x = 15;
 int? y = null;
 
+
 y = x;
 //x = y;
+
 
 
 /*
