@@ -14,8 +14,11 @@
   <Folder Name="/C#/03 Reference Types/">
     <Project Path="Reference/Reference.csproj" Id="81d8a6c2-cf92-432b-93e2-df4ddc0833d3" />
   </Folder>
-  <Folder Name="/C#/04. Object Console App/">
-    <Project Path="ObjectConsoleApp/ObjectConsoleApp.csproj" Id="4740e731-b6f9-49f9-8a0a-497d7526f6dd" />
+  <Folder Name="/C#/04. ObjectConsoleApp/">
+    <Project Path="ObjectConsoleApp.csproj/ObjectConsoleApp.csproj" Id="630cd4bf-3dc9-4835-ab22-3ab98e35f43c" />
+  </Folder>
+  <Folder Name="/C#/05. PrinterTaskConsoleApp/">
+    <Project Path="PrinterTaskConsoleApp/PrinterTaskConsoleApp.csproj" Id="6bc4a5ac-a5e7-4f82-8624-c472ee31fc0c" />
   </Folder>
   <Folder Name="/C++/" />
   <Folder Name="/C++/Strukturalne/" />
