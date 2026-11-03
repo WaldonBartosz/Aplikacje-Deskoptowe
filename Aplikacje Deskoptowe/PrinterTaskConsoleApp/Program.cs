@@ -11,3 +11,13 @@ Napisz program obsługujący wydruk na wybranej drukarce.
 
 */
 
+using PrinterTaskConsoleApp;
+
+Printer printer;
+printer = new Printer(67, "DzikaM");
+
+printer.Show();
+printer.Write(4);
+printer.Show();
+printer.Write(8);
+printer.Show();
