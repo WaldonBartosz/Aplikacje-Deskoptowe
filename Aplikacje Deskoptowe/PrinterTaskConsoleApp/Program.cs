@@ -1,4 +1,4 @@
-﻿/*
+/*
 Drukarka wybrana do wydruku
 
 Napisz program obsługujący wydruk na wybranej drukarce.
@@ -13,11 +13,32 @@ Napisz program obsługujący wydruk na wybranej drukarce.
 
 using PrinterTaskConsoleApp;
 
-Printer printer;
-printer = new Printer(67, "DzikaM");
+Printer printer = new Printer("DzikaM", 10);
 
-printer.Show();
-printer.Write(4);
-printer.Show();
-printer.Write(8);
-printer.Show();
+Printer selectedPrinter = printer;        // ta sama drukarka (druga nazwa)
+int initialPaperCount = printer.PaperCount; // kopia liczby 10
+
+Console.Write("Podaj liczbę stron: ");
+string? input = Console.ReadLine();
+
+if (int.TryParse(input, out int pageCount))
+{
+    bool result = selectedPrinter.Print(pageCount);
+    Console.WriteLine($"Wynik wydruku: {result}");
+}
+else
+{
+    Console.WriteLine("To nie jest liczba!");
+}
+
+Console.WriteLine($"printer: {printer.PaperCount}");
+Console.WriteLine($"selectedPrinter: {selectedPrinter.PaperCount}");
+Console.WriteLine($"initialPaperCount: {initialPaperCount}");
+
+/*
+Wyjaśnienie (np. wpisano 4):
+
+printer i selectedPrinter to jedna drukarka z dwiema nazwami,
+więc obie pokazują 6.
+initialPaperCount to zwykła kopia liczby, więc zostało 10.
+*/
